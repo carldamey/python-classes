@@ -28,7 +28,7 @@ class dumbCat(Cat):
     Cat.__init__(self, name, age)
     # now add any new attributes
     self.iq = iq
-
+  # new methods
   def lower_iq(self, amount):
     self.iq -= amount
     print(f"{self.name}'s iq is now {self.iq}.")
